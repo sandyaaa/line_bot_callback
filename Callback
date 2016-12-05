@@ -1,4 +1,4 @@
 $ composer require linecorp/line-bot-sdk
-$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('<channel access token>');
-$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '<channel secret>']);
+$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('<SugiEHrsH9aJve1yyLme6+3910JwVPF1wSrwU5CCuq3fG4ywH0qcxGD5xuXNHdEIDw9/1LMJHR2wuvgmPfxh6VGKbKbS6/0tEmu7LPby6WvpG7ZcEv8WvEQVwUA0UHnzqvvCIJL0lbpLTCNuCzJuOQdB04t89/1O/w1cDnyilFU=>');
+$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '<b6e059e8754a79ebb60e6ae57f0fcf76>']);
 $response = $bot->replyText('<reply token>', 'hello!');
